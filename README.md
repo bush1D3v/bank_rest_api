@@ -1,5 +1,7 @@
 # ⛰️ BANK RESTFUL API
+![License](https://img.shields.io/static/v1?label=license&message=MIT&color=blue) &nbsp;
 ![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.1.0&color=blue) &nbsp;
+![Repository size](https://img.shields.io/github/repo-size/bush1D3v/bank_restful_api?color=green) &nbsp;
 ![Pull request](https://img.shields.io/static/v1?label=PR&message=welcome&color=green)
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
@@ -26,7 +28,7 @@ Para executar esse projeto localmente, você vai precisar:
 - Clonar Esse Repositório
 
 ```zsh
-git clone https://github.com/bush1D3v/desafio-backend-modulo-03-sistema-dindin-b2b-ifood-t07
+git clone https://github.com/bush1D3v/bank_restful_api
 ```
 
 - Instalar dependências
@@ -223,6 +225,36 @@ Certifique-se de fornecer as informações corretas de acordo com o seu ambiente
       }
   ]
     ```
+  
+  **⭐EXTRA⭐**
+  - **Nesta rota, podemos filtrar os tipos de transações de retorno através da URL, desta forma:** <br>
+    **GET** /transacao`?filtro[]=roupas&filtro[]=salários`
+
+  🎯 Exemplo de resposta:
+    ```json
+    [                                          
+      {                                      
+          "id": 1,                           
+          "tipo": "saida",                   
+          "descricao": "Sapato amarelo",     
+          "valor": 15800,                    
+          "data": "2022-03-23T15:35:00.000Z",
+          "usuario_id": 5,                   
+          "categoria_id": 4,                 
+          "categoria_nome": "Roupas",        
+      },                                    
+      {                                    
+          "id": 3,                        
+          "tipo": "entrada",              
+          "descricao": "Salário",         
+          "valor": 300000,               
+          "data": "2022-03-24T15:30:00.000Z",
+          "usuario_id": 5,                
+          "categoria_id": 6,                
+          "categoria_nome": "Salários",   
+      }
+    ]
+  ```
 
 ## Detalhar Transação do Usuário Logado
 
