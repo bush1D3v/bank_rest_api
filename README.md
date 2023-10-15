@@ -1,7 +1,9 @@
 # ⛰️ BANK RESTFUL API
-![License](https://img.shields.io/static/v1?label=license&message=MIT&color=blue) &nbsp;
-![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.1.0&color=yellow) &nbsp;
-![Pull request](https://img.shields.io/static/v1?label=PR&message=welcome&color=green)
+![License](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow) &nbsp;
+![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.1.0&color=orange) &nbsp;
+![Repository size](https://img.shields.io/github/repo-size/bush1D3v/bank_restful_api?color=green) &nbsp;
+![Pull request](https://img.shields.io/static/v1?label=PR&message=welcome&color=blue)
+
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 <div>
