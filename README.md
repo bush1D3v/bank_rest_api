@@ -1,4 +1,4 @@
-# ⛰️ BANK RESTFUL API
+# ⛰️ BANK REST API
 ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow) &nbsp;
 ![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.1.0&color=orange) &nbsp;
 ![Repository size](https://img.shields.io/github/repo-size/bush1D3v/bank_restful_api?color=green) &nbsp;
@@ -20,7 +20,7 @@
 </div> <br>
 
 ## 📄 Sobre o Projeto
-<strong>RESTFUL API</strong> de um banco com integração a <strong>banco de dados</strong>, <strong>autenticação</strong> de usuário e <strong>criptografia</strong> de senha. <br> Projeto realizado levando em consideração o princípio de responsabilidade única, <strong>SOLID</strong>. 
+<strong>REST API</strong> de um banco com integração a <strong>banco de dados</strong>, <strong>autenticação</strong> de usuário e <strong>criptografia</strong> de senha. <br> Projeto realizado <strong>tentando</strong> levar em consideração o princípio de responsabilidade única, <strong>SOLID</strong>. 
 
 # 💻 Como executar esse projeto?
 
